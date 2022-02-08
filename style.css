@@ -1,0 +1,120 @@
+body {
+	  background-color: #E8EAE7;
+	  font-family: arial;
+	  color: #323434;
+
+	}
+	
+a:link {color:#323434;text-decoration:none;font-weight:bold;}     /* unvisited link */
+a:visited {color:#323434;text-decoration:none;font-weight:bold;}  /* visited link */
+a:hover {color:purple;text-decoration:none; font-weight:bold;}  /* mouse over link */
+a:active {color:purple;text-decoration:none; font-weight:bold;}  /* selected link */ 
+
+
+a.modif:link {color:#323434;text-decoration:none;font-weight:bold; font-size: 12px;}     /* unvisited link */
+a.modif:visited {color:#323434;text-decoration:none;font-weight:bold; font-size: 12px;}  /* visited link */
+a.modif:hover {color:#0099CC;text-decoration:none; font-weight:bold; font-size: 12px;}  /* mouse over link */
+a.modif:active {color:#0099CC;text-decoration:none; font-weight:bold; font-size: 12px;}  /* selected link */ 
+
+
+.ds_box {
+	background-color: #FFF;
+	border: 1px solid #000;
+	position: absolute;
+	z-index: 32767;
+}
+
+.ds_tbl {
+	background-color: #FFF;
+}
+
+.ds_head {
+	background-color: #333;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.ds_subhead {
+	background-color: #CCC;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 32px;
+}
+
+.ds_cell {
+	background-color: #EEE;
+	color: #000;
+	font-size: 13px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.ds_cell:hover {
+	background-color: #F3F3F3;
+} /* This hover code won't work for IE */
+
+
+
+table.sample {
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: solid;
+	border-color: gray;
+	border-collapse: collapse;
+	background-color: white;
+	font-size: 12px;
+}
+
+table.sample td {
+	border-width: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-style: inset;
+	border-color: gray;
+	-moz-border-radius: ;
+}
+
+
+table.sample2 {
+	border-width: 0px;
+	border-top-width: 0px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: gray;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+table.sample4 {
+	border-width: 0px;
+	border-top-width: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: gray;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+td.sample3  {
+	border-width: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-style: solid;
+	border-spacing: 0px;
+	border-color: black;
+	background-color: #0994F0;
+	color: white;
+	border-collapse: collapse;
+}
+
